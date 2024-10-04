@@ -22,6 +22,15 @@
     padding-right: 30px;
     padding-top: 20px;
 }
+#container2 {
+    height: 600px;
+    background-color: #0D1117;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
 #footer {
     background-color: #0D1117;
     padding: 10px;
@@ -116,11 +125,13 @@
 .fa-linkedin {
     background: #007bb5;
     color: white;
+    width: auto;
   }
   
 .fa-instagram {
     background: #125688;
     color: white;
+    width: auto;
   }
 .menulinki {
     color: #0D1117;
@@ -137,4 +148,10 @@
 .menulinki:hover {
     color: gray;
     text-decoration: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
 }
