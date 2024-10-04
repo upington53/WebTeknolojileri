@@ -8,35 +8,35 @@
         <meta charset="UTF-8"/>
         <meta name="description" content="Ulaş Pirim hakkında detaylı bilgilerin bulunduğu internet sitesidir.">
         <meta name="keywords" content="ulaş,pirim,kimdir,detaylı,bilgi">
-        <br>
     <div id="menu"><center>
         <h1 title="Ana Başlık" id="anabaslik"> Temel HTML Kodları</h1>
-        <a href="index.html">Ana Sayfa</a> | 
-        <a href="Resimler/cv.pdf">CV</a> |
-        <a href="kodlar.html">Kodlar</a> |
-        <a href="iletisim.html">İletişim</a>
-        <br>
+        <div id="menuler">
+            <a class="menulinki" href="index.html">Ana Sayfa</a> | 
+            <a class="menulinki" href="Resimler/cv.pdf">CV</a> |
+            <a class="menulinki" href="https://github.com/upington53/WebTeknolojileri">Kodlar</a> |
+            <a class="menulinki" href="iletisim.html">İletişim</a>
+        </div>
         </center>
     </div>
     </head>
     <body>
-    
         <div id="container">
             <header>
                 <!-- Burası başlık-->
-                <h2 class="kalin"> Kişisel Bilgiler</h2>
+                
             </header>
             <nav>
                 <!-- Burası da ana menü olacak-->
             </nav>
             <section>
-                <article>
+                <article id="ilk_kisim">
+                    <h2 class="kalin"> Kişisel Bilgiler</h2>
                     <img src="Resimler/Ben.png" width="150">
                     <p><u>Ad:</u> <strong>Ulaş</strong> <br> <u>Soyad:</u><strong> Pirim</strong></p>
                 
                 </article>
-                
-                <article>
+                <br>
+                <article id="ikinci_kisim">
                     <h2>
                         Bilinen Diller
                     </h2>
@@ -45,22 +45,73 @@
                             <a href="https://tdk.gov.tr/" >Türkçe</a>
                         </li>
                         <li>
-                            İngilizce
+                            <a href="https://en.wikipedia.org/wiki/English_language"> İngilizce</a>
                         </li>
                     </ul>
+                </article>
+                <br>
+                <article id="ucuncu_kisim">
                     <h2>
-                        Bilinen Kodlama Dilleri
+                        Deneyimler ve Seviyeler
                     </h2>
+                    <div id="kutu1">
+                        <div class="metin"> C++ <br> (Orta Seviye) </div>
+
+                    </div>
+                    <div id="kutu1">
+                        <div class="metin"> Java <br> (Başlangıç Seviye) </div>
+                        
+                    </div>
+                    <div id="kutu1">
+                        <div class="metin"> Wordpress <br> (İleri Seviye) </div>
+                        
+                    </div>
+                    <div id="kutu1">
+                        <div class="metin"> C <br> (Orta Seviye) </div>
+                        
+                    </div>
+                </article>
+                <article id="dorduncu_kisim">
+                    <div id="kutu2">
+                        <div class="metin"> VHDL <br> (Başlangıç Seviye) </div>
+                        
+                    </div>
+                    <div id="kutu2">
+                        <div class="metin"> HTML <br> (Orta Seviye) </div>
+                        
+                    </div>
+                    <div id="kutu2">
+                        <div class="metin"> CSS <br> (Orta Seviye) </div>
+                        
+                    </div>
+                    <div id="kutu2">
+                        <div class="metin"> Cisco CCNA <br> (Başlangıç Seviye) </div>
+                        
+                    </div>
+                    <!--
                     <ol type="I">
                         <li>
-                            C++ (orta seviye)
+                            C++ (Orta seviye)
                         </li>
                         <li>
-                            Java (başlangıç seviye)
+                            Java (Başlangıç seviye)
+                        </li>
+                        <li>
+                            Wordpress (İleri seviye)
                         </li>
                         <li>
                             C (orta seviye)
                         </li>
+                        <li>
+                            VHDL (Başlangıç seviye)
+                        </li>
+                        <li>
+                            HTML (Orta seviye)
+                        </li>
+                        <li>
+                            CSS (Başlangıç seviye)
+                        </li> -->
+
                 </article>
 
                 <article>
@@ -68,15 +119,23 @@
                 </article>
 
             </section>
-            <aside>
-                <!-- Burası yan menü olacak-->
+            <aside id="whatsapp">
+                <!-- Burası yan menü-->
+                <a href="https://wa.me/+905446193894/"> <img src="Resimler/whatsapp_icon.png" width="50"></a>
             </aside>
-            <footer>
-                <!-- Burası footer kısmı-->
 
-            </footer>
             
         </div>
     </body>
-    
+    <footer>
+        <!-- Burası footer kısmı-->
+        <div id="footer">
+
+            <center>
+                Telif Hakkı © 2024 | Ulaş Pirim. Tüm Hakları Saklıdır.
+            </center>
+
+
+        </div>
+    </footer>
 </html>

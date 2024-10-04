@@ -1,4 +1,140 @@
 #menu {
-   background-color: darkcyan;
-   padding: 20px;
+    background-color: darkcyan;
+    padding: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    font-family: Arial;
+}
+#anabaslik {
+    color: white;
+}
+#menuler {
+    background-color: white;
+    width: 230px;
+    height: auto;
+}
+#container {
+    
+    background-color: #0D1117;
+    color: whitesmoke;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+#footer {
+    background-color: #0D1117;
+    padding: 10px;
+    border-top-style: dashed;
+    border-top-width: 1px ;
+    border-top-color: white ;
+}
+
+#ilk_kisim {
+    padding-bottom: 20px ;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:auto;
+    background-color: #1f2938;
+    border-radius: 20px;
+}
+#ikinci_kisim {
+    padding-bottom: 20px ;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width:auto;
+    background-color: #1f2938;
+    border-radius: 10px;
+}
+#ucuncu_kisim {
+    display: relative;
+    place-items: center;
+    padding-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    width: auto;
+    height: fit-content;
+    background-color: #1f2938;
+    overflow: hidden;
+
+}
+#dorduncu_kisim {
+    display: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    width: auto;
+    height: fit-content;
+    background-color: #1f2938;
+    overflow: hidden;
+
+}
+#whatsapp {
+    position: fixed;
+    right: 25px;
+    bottom: 15px;
+    z-index: 1;
+}
+#kutu1 {
+    align-items: center;
+    text-align: center;
+    border-width: 1px ;
+    border-style: double;
+    width: 125px;
+    height: 60px;
+    float: left;
+    margin: 10px;
+}
+#kutu2 {
+    align-items: center;
+    text-align: center;
+    border-width: 1px ;
+    border-style: double;
+    width: 125px;
+    height: 60px;
+    float: left;
+    margin: 10px;
+}
+.metin {
+    padding: 10px;
+}
+#footer {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+.menulinki {
+    color: #0D1117;
+    text-decoration: none;
+}
+.menulinki:active {
+    color: darkcyan;
+    text-decoration: none;
+}
+.menulinki:visited {
+    color: darkblue;
+    text-decoration: none;
+}
+.menulinki:hover {
+    color: gray;
+    text-decoration: none;
 }
